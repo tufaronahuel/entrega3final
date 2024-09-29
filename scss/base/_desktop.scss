@@ -34,11 +34,17 @@
                 color: rebeccapurple;
             }
 
-            .videoYouTube{
+            .video{
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                margin: 0 auto;
                 height: 300px;
+                border: salmon solid 5px;
                 iframe{
-                    width: 50%;
-                    height: 100%; 
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
                 }
             }
 
@@ -67,6 +73,11 @@
         /* estilos herramientas */
 
         .mainHerramientas{
+
+            h1{
+                padding-top: 20px;
+                padding-bottom: 30px;
+            }
             .videoHerramientas{
                 justify-content: center;
                 padding: 10px;
@@ -97,6 +108,10 @@
                     }
                 }
             }
+
+            p{
+                text-align: center;
+            }
         }
 
         /* estilos pastillas de frenos */
@@ -105,12 +120,20 @@
             .tituloPastillas{
                 padding-bottom: 2.5%;
                 font-weight: bold;
+                
             }
 
-            .videoYouTube{
+            .video{
+                display: flex;
                 justify-content: center;
+                width: 90%;
+                margin: 0 auto;
+                height: 300px;
+                border: salmon solid 5px;
                 iframe{
-                    @include weight-height;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
                 }
             }
 
@@ -173,13 +196,20 @@
         .suspensionYDireccion{
             .tituloSecundarioSuspension{
                 padding-bottom: 15px;
-                padding-top: 2%;
+                padding-top: 1%;
             }
 
-            .videoYouTube{
+            .video{
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                margin: 0 auto;
                 height: 300px;
-                iframe{ 
-                    @include weight-height;
+                border: salmon solid 5px;
+                iframe{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
                 }
             }
 

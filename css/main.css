@@ -37,38 +37,49 @@
 /* estilos */
 /*estilos main */
 .colorFondo {
-  /* estilos cartel "Horarios de atencion" */
+  justify-content: center;
   /*pagina pastillas de frenos*/
+  /*estilos main Herramientas */
   /* estilos para el main de suspension y direccion */
+  /* estilos cartel "Horarios de atencion" */
   /*estilos para el link del mapa en contacto */
   /* estilos para planilla de contacto */
   /* logo Whatsapp flotante */
 }
-.colorFondo main {
+.colorFondo .mainIndex {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
 }
-.colorFondo main .categorias {
+.colorFondo .mainIndex .categorias {
   display: none;
 }
-.colorFondo main .tituloIndex {
+.colorFondo .mainIndex .tituloIndex {
   margin-top: 5%;
   margin-bottom: 5%;
   text-align: center;
+  font-weight: bold;
 }
-.colorFondo main .textoIndex {
+.colorFondo .mainIndex .video {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 300px;
+  border: salmon solid 5px;
+}
+.colorFondo .mainIndex .video iframe {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.colorFondo .mainIndex .textoIndex {
   display: inline-block;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 15%;
   margin-right: 15%;
-}
-.colorFondo main table {
-  display: inline-block;
-  text-align: center;
-  margin-top: 30px;
 }
 .colorFondo .mainPastillas .tituloPastillas {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -76,12 +87,17 @@
   text-align: center;
   margin-top: 15%;
 }
-.colorFondo .mainPastillas .videoYouTube {
-  height: 300px;
-}
-.colorFondo .mainPastillas .videoYouTube iframe {
+.colorFondo .mainPastillas .video {
+  display: flex;
+  justify-content: center;
   width: 90%;
+  margin: 0 auto;
+  height: 300px;
+  border: salmon solid 5px;
+}
+.colorFondo .mainPastillas .video iframe {
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 .colorFondo .mainPastillas p .parrafoPastillasUno {
@@ -97,6 +113,7 @@
 .colorFondo .mainPastillas .imagenesPastillasParrafo {
   display: grid;
   justify-content: center;
+  text-align: center;
 }
 .colorFondo .mainPastillas .imagenesPastillasParrafo div .imgCuatroPastillas {
   height: 50%;
@@ -118,17 +135,25 @@
   font-weight: bold;
   text-align: center;
 }
-.colorFondo .mainHerramientas .videoHerramientas {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.colorFondo .mainHerramientas .video {
   display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 300px;
+  border: salmon solid 5px;
+}
+.colorFondo .mainHerramientas .video iframe {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .colorFondo .mainHerramientas div.imagenesHerramientas .imagenesHerramientasUno {
   display: grid;
   padding-top: 5%;
   justify-content: center;
   padding-bottom: 5%;
+  text-align: center;
 }
 .colorFondo .mainHerramientas div.imagenesHerramientas div .card-text {
   font-weight: bolder;
@@ -155,19 +180,32 @@
 .colorFondo .suspensionYDireccion .tituloPrincipalSuspension {
   font-weight: bold;
   padding-top: 5%;
+  text-align: center;
 }
 .colorFondo .suspensionYDireccion .tituloSecundarioSuspension {
   padding-top: 10%;
   font-style: italic;
+  padding-left: 20px;
 }
-.colorFondo .suspensionYDireccion .videoYouTube iframe {
+.colorFondo .suspensionYDireccion p {
+  padding-left: 5px;
+}
+.colorFondo .suspensionYDireccion .video {
+  display: flex;
+  justify-content: center;
   width: 90%;
+  margin: 0 auto;
+  height: 300px;
+  border: salmon solid 5px;
+}
+.colorFondo .suspensionYDireccion .video iframe {
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 .colorFondo .suspensionYDireccion p .parrafoSuspension {
   margin-left: 2%;
-  padding-top: 3%;
+  padding-top: 30%;
   text-align: center;
   font-weight: 100;
 }
@@ -238,29 +276,54 @@
 /* estilos tablet */
 @media screen and (min-width: 600px) {
   .colorFondo {
-    /* estilos index */
+    /*estilos Index*/
     /* estilos contactos */
     /* estilos herramientas */
     /* estilos pastillas de frenos */
   }
-  .colorFondo .mainIndex .videoYoutube {
-    height: 30vh;
-    padding-left: 50px;
-    padding-right: 50px;
+  .colorFondo .mainIndex .video {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+    border: salmon solid 5px;
   }
-  .colorFondo .colorFondo .mapa {
+  .colorFondo .mainIndex .video iframe {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .colorFondo .mainContacto {
+    text-align: center;
+  }
+  .colorFondo .mapa {
     justify-content: center;
   }
-  .colorFondo .mainHerramientas .videoHerramientas {
+  .colorFondo .mainHerramientas .video {
+    display: flex;
     justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+  }
+  .colorFondo .mainHerramientas .video iframe {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
   .colorFondo .mainHerramientas .imagenesHerramientas .imagenesHerramientasUno {
     grid-template-columns: repeat(2, 0.5fr);
   }
+  .colorFondo .mainHerramientas .imagenesHerramientas .imagenesHerramientasUno .imagenesHerramientassUno {
+    text-align: center;
+  }
+  .colorFondo .mainHerramientas .imagenesHerramientas .imagenesHerramientasUno .imagenesHerramientassDos {
+    text-align: center;
+  }
   .colorFondo .mainHerramientas .imagenesHerramientas .imagenesHerramientasUno .imagenesHerramientassTres {
     margin-left: 50%;
+    text-align: center;
   }
   .colorFondo .mainHerramientas .imagenesHerramientasDos {
     display: none;
@@ -271,7 +334,24 @@
   .colorFondo .mainPastillas .tituloPastillas {
     padding-bottom: 10px;
   }
-  .colorFondo .mainPastillas .parrafoPastillasUno, .colorFondo .mainPastillas .parrafoPastillas {
+  .colorFondo .mainPastillas .video {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+  }
+  .colorFondo .mainPastillas .video iframe {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .colorFondo .mainPastillas .parrafoPastillasUno {
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .colorFondo .mainPastillas .parrafoPastillas {
     margin-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
@@ -281,12 +361,36 @@
     align-content: center;
     padding-top: 50px;
     grid-template-rows: repeat(2, 0.4fr);
+    text-align: center;
   }
   .colorFondo .mainPastillas .imgCincoPastillas {
     display: none;
   }
   .colorFondo .mainPastillas .imgSeisPastillas {
     display: none;
+  }
+  .suspensionYDireccion h1 {
+    text-align: center;
+  }
+  .suspensionYDireccion h2 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .suspensionYDireccion .video {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+  }
+  .suspensionYDireccion .video iframe {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .suspensionYDireccion p {
+    text-align: center;
+    padding-top: 10px;
   }
 }
 /* estilos desktop */
@@ -319,12 +423,18 @@
     font-weight: bolder;
     color: rebeccapurple;
   }
-  .colorFondo .mainIndex .videoYouTube {
+  .colorFondo .mainIndex .video {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
     height: 300px;
+    border: salmon solid 5px;
   }
-  .colorFondo .mainIndex .videoYouTube iframe {
-    width: 50%;
+  .colorFondo .mainIndex .video iframe {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
   .colorFondo .mainIndex .textoIndex {
     justify-content: left;
@@ -338,6 +448,10 @@
   }
   .colorFondo .mapa {
     justify-content: center;
+  }
+  .colorFondo .mainHerramientas h1 {
+    padding-top: 20px;
+    padding-bottom: 30px;
   }
   .colorFondo .mainHerramientas .videoHerramientas {
     justify-content: center;
@@ -362,16 +476,25 @@
   .colorFondo .mainHerramientas .imagenesHerramientas .imagenesHerramientasDos .imgSeisHerramientas {
     display: none;
   }
+  .colorFondo .mainHerramientas p {
+    text-align: center;
+  }
   .colorFondo .mainPastillas .tituloPastillas {
     padding-bottom: 2.5%;
     font-weight: bold;
   }
-  .colorFondo .mainPastillas .videoYouTube {
+  .colorFondo .mainPastillas .video {
+    display: flex;
     justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+    border: salmon solid 5px;
   }
-  .colorFondo .mainPastillas .videoYouTube iframe {
-    width: 50%;
+  .colorFondo .mainPastillas .video iframe {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
   .colorFondo .mainPastillas .parrafoPastillasUno {
     justify-content: center;
@@ -421,14 +544,20 @@
   }
   .colorFondo .suspensionYDireccion .tituloSecundarioSuspension {
     padding-bottom: 15px;
-    padding-top: 2%;
+    padding-top: 1%;
   }
-  .colorFondo .suspensionYDireccion .videoYouTube {
+  .colorFondo .suspensionYDireccion .video {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
     height: 300px;
+    border: salmon solid 5px;
   }
-  .colorFondo .suspensionYDireccion .videoYouTube iframe {
-    width: 50%;
+  .colorFondo .suspensionYDireccion .video iframe {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
   .colorFondo .suspensionYDireccion .parrafoSuspension {
     padding-left: 20%;

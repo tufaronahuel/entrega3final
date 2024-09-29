@@ -5,39 +5,69 @@
 
 @media screen and (min-width:600px){
 .colorFondo{
-        /* estilos index */
+
+        /*estilos Index*/
 
         .mainIndex{
-            .videoYoutube{
-                height: 30vh;
-                padding-left: 50px;
-                padding-right: 50px;
+            .video{
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                margin: 0 auto;
+                height: 300px;
+                border: salmon solid 5px;
+                iframe{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
             }
         }
+
+
 
         /* estilos contactos */
 
-        .colorFondo{
+        .mainContacto{
+            text-align: center;
+        }
+
             .mapa{
                 justify-content: center;
             }
-        }
+        
 
         /* estilos herramientas */
 
         .mainHerramientas{
-            .videoHerramientas{
+            .video{
+                display: flex;
                 justify-content: center;
-                padding-top: 15px;
-                padding-bottom: 15px;
+                width: 90%;
+                margin: 0 auto;
+                height: 300px;
+                iframe{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
             }
 
             .imagenesHerramientas{
                 .imagenesHerramientasUno{
                     grid-template-columns: repeat(2, 0.5fr);
 
+                    .imagenesHerramientassUno{
+                        text-align: center;
+                    }
+
+                    .imagenesHerramientassDos{
+                        text-align: center;
+                    }
+
                     .imagenesHerramientassTres{
                         margin-left: 50%;
+                        text-align: center;
                     }
                 }
             }
@@ -57,9 +87,29 @@
         .mainPastillas{
             .tituloPastillas{
                 padding-bottom: 10px;
+                
             }
 
-            .parrafoPastillasUno, .parrafoPastillas{
+            .video{
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                margin: 0 auto;
+                height: 300px;
+                iframe{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .parrafoPastillasUno{
+                margin-top: 20px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .parrafoPastillas{
                 margin-top: 20px;
                 padding-left: 15px;
                 padding-right: 15px;
@@ -70,6 +120,7 @@
                 align-content: center;
                 padding-top: 50px;
                 grid-template-rows: repeat(2, 0.4fr);
+                text-align: center;
             }
 
             .imgCincoPastillas{
@@ -80,5 +131,35 @@
                 display: none;
             }
         }
+    }
+
+    .suspensionYDireccion{
+        h1{
+            text-align: center;          
+        }
+
+        h2{
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        .video{
+            display: flex;
+            justify-content: center;
+            width: 90%;
+            margin: 0 auto;
+            height: 300px;
+            iframe{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        p{
+            text-align: center;
+            padding-top: 10px;
+        }
+
     }
 }
