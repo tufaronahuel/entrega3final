@@ -1,0 +1,31 @@
+@import "../utilidades/variables";
+
+
+
+/* estilos generales footer */
+.colorFondo{
+
+
+    footer{
+        background-color: $color-principal ;
+        text-align: center;
+        color: black;
+
+        div{
+            h2{
+                margin: 5px;
+            }
+        }
+
+        p{
+            background-color: black;
+            color: whitesmoke;
+        }
+
+        .itemRedesSociales{
+            display: inline-flex;
+            margin: 10px;
+        }
+    }
+
+}

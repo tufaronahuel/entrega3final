@@ -1,0 +1,195 @@
+@import "../utilidades/mixin";
+@import "../utilidades/variables";
+
+/* estilos desktop */
+
+@media screen and (min-width:1024px){
+.colorFondo{
+        /* estilos index */
+
+        .mainIndex{
+            .categorias{
+                display: grid;
+                @include grid-template;
+                margin-left: 15%;
+                margin-right: 15%;  
+                margin-top: 7%;
+                justify-content: center;
+                column-gap: 10px;
+                row-gap: 10px;
+
+                div{
+                    a{
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            border-radius: 25px;
+                        }
+                    }
+                }
+            }
+            .tituloIndex{
+                font-weight: bolder;
+                color: rebeccapurple;
+            }
+
+            .videoYouTube{
+                height: 300px;
+                iframe{
+                    width: 50%;
+                    height: 100%; 
+                }
+            }
+
+            .textoIndex{
+                justify-content: left;
+                padding-right: 5%;
+                margin-left: 15%;
+            }
+        }
+
+        /* estilos contacto */
+
+        .mainContacto{
+            .horarios{
+                font-size: larger;
+                height: 20px;
+                padding-bottom: 5%;
+            }
+
+        }
+
+        .mapa{
+            justify-content: center;
+        }
+
+        /* estilos herramientas */
+
+        .mainHerramientas{
+            .videoHerramientas{
+                justify-content: center;
+                padding: 10px;
+            }
+
+            .imagenesHerramientas{
+                .imagenesHerramientasUno{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    column-gap: 1.5rem;
+
+                        .imagenesHerramientassTres{
+                            display: none;
+                        }
+                }
+
+                .imagenesHerramientasDos{
+                    display: grid;
+                    grid-template-columns: repeat(3,2fr);      
+                    column-gap: 1.5rem;
+
+                    .imgCuatroHerramientas{
+                        display: none;
+                    }
+
+                    .imgSeisHerramientas{
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        /* estilos pastillas de frenos */
+
+        .mainPastillas{
+            .tituloPastillas{
+                padding-bottom: 2.5%;
+                font-weight: bold;
+            }
+
+            .videoYouTube{
+                justify-content: center;
+                iframe{
+                    @include weight-height;
+                }
+            }
+
+            .parrafoPastillasUno{
+                justify-content: center;
+                @include padding;
+            }
+
+            .parrafoPastillas{
+                justify-content: center;
+                @include padding;
+            }
+
+            .imagenesPastillasParrafo{
+                grid-template-columns: repeat(3,0.5fr);
+                grid-template-rows: repeat(2,0.2fr);
+                column-gap: 10px;
+                margin-top: 10%;
+                width: 90%;
+                height: 70%;
+                padding-left: 10%;
+
+                .imgUnaPastillas{
+                    height: 70%;
+                    width: 90%;
+                }
+                
+                .txtPastillas{
+                    padding-top: 0%;
+                    padding-bottom: 10%;
+                    color: tomato;
+                }
+
+                .imgDosPastillas{
+                    height: 70%;
+                    width: 90%;
+                }
+
+                .txtPastillas{
+                    padding-top: 0%;
+                    padding-bottom: 10%;
+                    color: tomato;
+                }
+
+                .imgTresPastillas{
+                    height: 70%;
+                    width: 90%;
+                }
+
+                .txtPastillas{
+                    padding-top: 1%;
+                    padding-bottom: 10%;
+                    color: tomato;
+                }
+            }
+        }
+
+        /* estilos suspension y direccion */
+
+        .suspensionYDireccion{
+            .tituloSecundarioSuspension{
+                padding-bottom: 15px;
+                padding-top: 2%;
+            }
+
+            .videoYouTube{
+                height: 300px;
+                iframe{ 
+                    @include weight-height;
+                }
+            }
+
+            .parrafoSuspension{
+                @include padding;
+            }
+
+            .parrafoSuspensionUno{
+                @include padding;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+//import de variables
+@import "../utilidades/variables";
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+
+/*estilos generales body*/
+
+.colorFondo{
+    background-color: $color-secundario;
+       
+    header{
+        background-color: $color-principal;
+        text-align: center;
+        padding-bottom: 20px; 
+    }
+    
+    header nav ul li{ 
+        text-decoration: none;  
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
+    header nav ul li a{
+        text-decoration: none;
+        color: $color-botones; 
+        font-size: 105% ;   
+    }
+    
+    header a .logo{
+        height: 100px; 
+        width: 100px;
+    }
+    
+    .tomatito:hover{
+        background-color: orangered;
+    }
+      
+}
+
+
+
+
+

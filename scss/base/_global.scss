@@ -1,0 +1,249 @@
+//import de variables
+@import "../utilidades/variables.scss";
+//import de mixin
+@import "../utilidades/mixin.scss";
+
+/* estilos */
+
+/*estilos main */
+.colorFondo{
+    main{
+        @include font;
+        margin-top: 20px;
+
+        .categorias{
+            display: none;
+        }
+            .tituloIndex{
+                @include margin;
+                text-align: center;
+            }
+            .textoIndex{
+                    display: inline-block;
+                    @include margin;
+                    margin-left: 15%;
+                    margin-right: 15%;
+            }
+
+        }
+
+    /* estilos cartel "Horarios de atencion" */
+
+    main table{
+        display: inline-block;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /*pagina pastillas de frenos*/
+
+    .mainPastillas{
+
+        .tituloPastillas{
+            @include font;
+            margin-top: 15%;
+        }
+        
+        .videoYouTube{
+            height: 300px;
+
+        iframe{
+            width:90%;
+            height: 100%;
+            object-fit: cover;
+        }
+        }
+
+        p{
+            .parrafoPastillasUno{
+                text-align: center;
+                margin-left: 18%;
+                padding-top: 5%;
+            }
+        }
+
+        div{
+            .parrafoPastillas{
+                text-align: center;
+                margin-top: 10%;
+                font-weight: 100;
+            }
+        }
+
+        .imagenesPastillasParrafo{
+            display: grid;
+            justify-content: center;
+
+            div{
+                .imgCuatroPastillas{
+                    height: 50%;
+                }
+            }
+                
+
+            div{
+                .imgCincoPastillas{
+                    height: 50%;
+                    
+                }
+            }
+
+            div{
+                .imgSeisPastillas{
+                    height: 50%;
+                } 
+                .txtPastillas{
+                    font-weight: 100;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+            
+            } 
+            
+        }
+    }
+
+    .mainHerramientas{
+        .tituloHerramientas{
+            color: $color-botones;
+            @include font;
+        }
+
+        .videoHerramientas{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: flex;  
+        }
+        div.imagenesHerramientas{
+            .imagenesHerramientasUno{
+            @include grid;
+            padding-bottom: 5%;  
+            }
+
+            div{
+                .card-text{
+                    font-weight: bolder;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    background-color: rgb(241, 237, 237);  
+                }
+
+                .btn{
+                background-color: $color-principal;
+                color: $color-botones;
+                @include font;
+                }
+
+                .imagenesHerramientassUno, .imagenesHerramientassDos, .imagenesHerramientassTres{
+                    margin-bottom: 5%;
+                }
+            }
+            div.imagenesHerramientasDos{
+                div{
+                    display: grid;
+                    padding-top: 5%;
+                    padding-bottom: 1%;
+                    margin-bottom: 5%;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    /* estilos para el main de suspension y direccion */
+
+    .suspensionYDireccion{
+        .tituloPrincipalSuspension{
+            font-weight: bold;
+            padding-top: 5%;
+        }
+
+        .tituloSecundarioSuspension{
+            padding-top: 10%;
+            font-style: italic;
+        }
+
+        .videoYouTube{
+            iframe{
+                width:90%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        p{
+            .parrafoSuspension{
+            margin-left: 2%;
+            padding-top: 3%;
+            text-align: center;
+            font-weight: 100; 
+            }
+        }
+        
+        .parrafoSuspensionUno{
+            margin-left: 3%;
+            padding-top: 3%;
+            text-align: left;  
+        }
+    }
+
+    /*estilos para el link del mapa en contacto */
+
+    .mapa{
+        text-align: center;
+        margin: 10%;
+        display: flex;
+    }
+
+    /* estilos para planilla de contacto */
+
+    section{
+        form{
+            display: inline ;
+            background-color:#F8D30D;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+
+            fieldset{
+                margin-top: 5%;
+                margin-bottom: 5%;
+                background-color: gainsboro;
+                text-align: center;
+
+                legend{
+                    background-color: black;
+                    color: whitesmoke;
+                    text-align: center;
+                    margin-bottom: 5%;
+                }
+
+                .tablaDeDatos{
+                    margin: 10px;
+                    font-weight: bolder; 
+
+                    .ejemplo{
+                        font-weight: bold;
+                        margin-left: 10px; 
+                        font-weight: lighter;
+                    }
+                }
+            }
+        }
+    }
+
+    /* logo Whatsapp flotante */
+
+    .itemWhatsapp{
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        height: 50px; 
+        width: 70px;
+    }
+}    
+
+
+
+
+
+

@@ -1,0 +1,443 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estilos generales */
+/*estilos generales body*/
+.colorFondo {
+  background-color: beige;
+}
+.colorFondo header {
+  background-color: #f8d30d;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.colorFondo header nav ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.colorFondo header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 105%;
+}
+.colorFondo header a .logo {
+  height: 100px;
+  width: 100px;
+}
+.colorFondo .tomatito:hover {
+  background-color: orangered;
+}
+
+/* estilos */
+/*estilos main */
+.colorFondo {
+  /* estilos cartel "Horarios de atencion" */
+  /*pagina pastillas de frenos*/
+  /* estilos para el main de suspension y direccion */
+  /*estilos para el link del mapa en contacto */
+  /* estilos para planilla de contacto */
+  /* logo Whatsapp flotante */
+}
+.colorFondo main {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.colorFondo main .categorias {
+  display: none;
+}
+.colorFondo main .tituloIndex {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.colorFondo main .textoIndex {
+  display: inline-block;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.colorFondo main table {
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+.colorFondo .mainPastillas .tituloPastillas {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15%;
+}
+.colorFondo .mainPastillas .videoYouTube {
+  height: 300px;
+}
+.colorFondo .mainPastillas .videoYouTube iframe {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+.colorFondo .mainPastillas p .parrafoPastillasUno {
+  text-align: center;
+  margin-left: 18%;
+  padding-top: 5%;
+}
+.colorFondo .mainPastillas div .parrafoPastillas {
+  text-align: center;
+  margin-top: 10%;
+  font-weight: 100;
+}
+.colorFondo .mainPastillas .imagenesPastillasParrafo {
+  display: grid;
+  justify-content: center;
+}
+.colorFondo .mainPastillas .imagenesPastillasParrafo div .imgCuatroPastillas {
+  height: 50%;
+}
+.colorFondo .mainPastillas .imagenesPastillasParrafo div .imgCincoPastillas {
+  height: 50%;
+}
+.colorFondo .mainPastillas .imagenesPastillasParrafo div .imgSeisPastillas {
+  height: 50%;
+}
+.colorFondo .mainPastillas .imagenesPastillasParrafo div .txtPastillas {
+  font-weight: 100;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.colorFondo .mainHerramientas .tituloHerramientas {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+}
+.colorFondo .mainHerramientas .videoHerramientas {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+}
+.colorFondo .mainHerramientas div.imagenesHerramientas .imagenesHerramientasUno {
+  display: grid;
+  padding-top: 5%;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.colorFondo .mainHerramientas div.imagenesHerramientas div .card-text {
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(241, 237, 237);
+}
+.colorFondo .mainHerramientas div.imagenesHerramientas div .btn {
+  background-color: #f8d30d;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+}
+.colorFondo .mainHerramientas div.imagenesHerramientas div .imagenesHerramientassUno, .colorFondo .mainHerramientas div.imagenesHerramientas div .imagenesHerramientassDos, .colorFondo .mainHerramientas div.imagenesHerramientas div .imagenesHerramientassTres {
+  margin-bottom: 5%;
+}
+.colorFondo .mainHerramientas div.imagenesHerramientas div.imagenesHerramientasDos div {
+  display: grid;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+.colorFondo .suspensionYDireccion .tituloPrincipalSuspension {
+  font-weight: bold;
+  padding-top: 5%;
+}
+.colorFondo .suspensionYDireccion .tituloSecundarioSuspension {
+  padding-top: 10%;
+  font-style: italic;
+}
+.colorFondo .suspensionYDireccion .videoYouTube iframe {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+.colorFondo .suspensionYDireccion p .parrafoSuspension {
+  margin-left: 2%;
+  padding-top: 3%;
+  text-align: center;
+  font-weight: 100;
+}
+.colorFondo .suspensionYDireccion .parrafoSuspensionUno {
+  margin-left: 3%;
+  padding-top: 3%;
+  text-align: left;
+}
+.colorFondo .mapa {
+  text-align: center;
+  margin: 10%;
+  display: flex;
+}
+.colorFondo section form {
+  display: inline;
+  background-color: #F8D30D;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.colorFondo section form fieldset {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: gainsboro;
+  text-align: center;
+}
+.colorFondo section form fieldset legend {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.colorFondo section form fieldset .tablaDeDatos {
+  margin: 10px;
+  font-weight: bolder;
+}
+.colorFondo section form fieldset .tablaDeDatos .ejemplo {
+  font-weight: bold;
+  margin-left: 10px;
+  font-weight: lighter;
+}
+.colorFondo .itemWhatsapp {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  height: 50px;
+  width: 70px;
+}
+
+/* estilos generales footer */
+.colorFondo footer {
+  background-color: #f8d30d;
+  text-align: center;
+  color: black;
+}
+.colorFondo footer div h2 {
+  margin: 5px;
+}
+.colorFondo footer p {
+  background-color: black;
+  color: whitesmoke;
+}
+.colorFondo footer .itemRedesSociales {
+  display: inline-flex;
+  margin: 10px;
+}
+
+/* estilos tablet */
+@media screen and (min-width: 600px) {
+  .colorFondo {
+    /* estilos index */
+    /* estilos contactos */
+    /* estilos herramientas */
+    /* estilos pastillas de frenos */
+  }
+  .colorFondo .mainIndex .videoYoutube {
+    height: 30vh;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .colorFondo .colorFondo .mapa {
+    justify-content: center;
+  }
+  .colorFondo .mainHerramientas .videoHerramientas {
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .colorFondo .mainHerramientas .imagenesHerramientas .imagenesHerramientasUno {
+    grid-template-columns: repeat(2, 0.5fr);
+  }
+  .colorFondo .mainHerramientas .imagenesHerramientas .imagenesHerramientasUno .imagenesHerramientassTres {
+    margin-left: 50%;
+  }
+  .colorFondo .mainHerramientas .imagenesHerramientasDos {
+    display: none;
+  }
+  .colorFondo .mainHerramientas .prueba {
+    font-weight: bold;
+  }
+  .colorFondo .mainPastillas .tituloPastillas {
+    padding-bottom: 10px;
+  }
+  .colorFondo .mainPastillas .parrafoPastillasUno, .colorFondo .mainPastillas .parrafoPastillas {
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .colorFondo .mainPastillas .imagenesPastillasParrafo {
+    grid-template-columns: repeat(2, 0.5fr);
+    align-content: center;
+    padding-top: 50px;
+    grid-template-rows: repeat(2, 0.4fr);
+  }
+  .colorFondo .mainPastillas .imgCincoPastillas {
+    display: none;
+  }
+  .colorFondo .mainPastillas .imgSeisPastillas {
+    display: none;
+  }
+}
+/* estilos desktop */
+@media screen and (min-width: 1024px) {
+  .colorFondo {
+    /* estilos index */
+    /* estilos contacto */
+    /* estilos herramientas */
+    /* estilos pastillas de frenos */
+    /* estilos suspension y direccion */
+  }
+  .colorFondo .mainIndex .categorias {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(2, 45%);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 7%;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  .colorFondo .mainIndex .categorias div a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  .colorFondo .mainIndex .tituloIndex {
+    font-weight: bolder;
+    color: rebeccapurple;
+  }
+  .colorFondo .mainIndex .videoYouTube {
+    height: 300px;
+  }
+  .colorFondo .mainIndex .videoYouTube iframe {
+    width: 50%;
+    height: 100%;
+  }
+  .colorFondo .mainIndex .textoIndex {
+    justify-content: left;
+    padding-right: 5%;
+    margin-left: 15%;
+  }
+  .colorFondo .mainContacto .horarios {
+    font-size: larger;
+    height: 20px;
+    padding-bottom: 5%;
+  }
+  .colorFondo .mapa {
+    justify-content: center;
+  }
+  .colorFondo .mainHerramientas .videoHerramientas {
+    justify-content: center;
+    padding: 10px;
+  }
+  .colorFondo .mainHerramientas .imagenesHerramientas .imagenesHerramientasUno {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+  }
+  .colorFondo .mainHerramientas .imagenesHerramientas .imagenesHerramientasUno .imagenesHerramientassTres {
+    display: none;
+  }
+  .colorFondo .mainHerramientas .imagenesHerramientas .imagenesHerramientasDos {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    column-gap: 1.5rem;
+  }
+  .colorFondo .mainHerramientas .imagenesHerramientas .imagenesHerramientasDos .imgCuatroHerramientas {
+    display: none;
+  }
+  .colorFondo .mainHerramientas .imagenesHerramientas .imagenesHerramientasDos .imgSeisHerramientas {
+    display: none;
+  }
+  .colorFondo .mainPastillas .tituloPastillas {
+    padding-bottom: 2.5%;
+    font-weight: bold;
+  }
+  .colorFondo .mainPastillas .videoYouTube {
+    justify-content: center;
+  }
+  .colorFondo .mainPastillas .videoYouTube iframe {
+    width: 50%;
+    height: 100%;
+  }
+  .colorFondo .mainPastillas .parrafoPastillasUno {
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .colorFondo .mainPastillas .parrafoPastillas {
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .colorFondo .mainPastillas .imagenesPastillasParrafo {
+    grid-template-columns: repeat(3, 0.5fr);
+    grid-template-rows: repeat(2, 0.2fr);
+    column-gap: 10px;
+    margin-top: 10%;
+    width: 90%;
+    height: 70%;
+    padding-left: 10%;
+  }
+  .colorFondo .mainPastillas .imagenesPastillasParrafo .imgUnaPastillas {
+    height: 70%;
+    width: 90%;
+  }
+  .colorFondo .mainPastillas .imagenesPastillasParrafo .txtPastillas {
+    padding-top: 0%;
+    padding-bottom: 10%;
+    color: tomato;
+  }
+  .colorFondo .mainPastillas .imagenesPastillasParrafo .imgDosPastillas {
+    height: 70%;
+    width: 90%;
+  }
+  .colorFondo .mainPastillas .imagenesPastillasParrafo .txtPastillas {
+    padding-top: 0%;
+    padding-bottom: 10%;
+    color: tomato;
+  }
+  .colorFondo .mainPastillas .imagenesPastillasParrafo .imgTresPastillas {
+    height: 70%;
+    width: 90%;
+  }
+  .colorFondo .mainPastillas .imagenesPastillasParrafo .txtPastillas {
+    padding-top: 1%;
+    padding-bottom: 10%;
+    color: tomato;
+  }
+  .colorFondo .suspensionYDireccion .tituloSecundarioSuspension {
+    padding-bottom: 15px;
+    padding-top: 2%;
+  }
+  .colorFondo .suspensionYDireccion .videoYouTube {
+    height: 300px;
+  }
+  .colorFondo .suspensionYDireccion .videoYouTube iframe {
+    width: 50%;
+    height: 100%;
+  }
+  .colorFondo .suspensionYDireccion .parrafoSuspension {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .colorFondo .suspensionYDireccion .parrafoSuspensionUno {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
