@@ -426,7 +426,7 @@
   .colorFondo .mainIndex .video {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 50%;
     margin: 0 auto;
     height: 300px;
     border: salmon solid 5px;
@@ -486,7 +486,7 @@
   .colorFondo .mainPastillas .video {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
     height: 300px;
     border: salmon solid 5px;
@@ -549,7 +549,7 @@
   .colorFondo .suspensionYDireccion .video {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
     height: 300px;
     border: salmon solid 5px;

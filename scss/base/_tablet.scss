@@ -4,162 +4,166 @@
 /* estilos tablet */
 
 @media screen and (min-width:600px){
-.colorFondo{
+    
+     .colorFondo{
 
-        /*estilos Index*/
+            /*estilos Index*/
 
-        .mainIndex{
-            .video{
-                display: flex;
-                justify-content: center;
-                width: 90%;
-                margin: 0 auto;
-                height: 300px;
-                border: salmon solid 5px;
-                iframe{
-                    height: 100%;
-                    width: 100%;
-                    object-fit: cover;
-                }
-            }
-        }
-
-
-
-        /* estilos contactos */
-
-        .mainContacto{
-            text-align: center;
-        }
-
-            .mapa{
-                justify-content: center;
-            }
-        
-
-        /* estilos herramientas */
-
-        .mainHerramientas{
-            .video{
-                display: flex;
-                justify-content: center;
-                width: 90%;
-                margin: 0 auto;
-                height: 300px;
-                iframe{
-                    height: 100%;
-                    width: 100%;
-                    object-fit: cover;
-                }
-            }
-
-            .imagenesHerramientas{
-                .imagenesHerramientasUno{
-                    grid-template-columns: repeat(2, 0.5fr);
-
-                    .imagenesHerramientassUno{
-                        text-align: center;
-                    }
-
-                    .imagenesHerramientassDos{
-                        text-align: center;
-                    }
-
-                    .imagenesHerramientassTres{
-                        margin-left: 50%;
-                        text-align: center;
+            .mainIndex{
+                .video{
+                    display: flex;
+                    justify-content: center;
+                    width: 90%;
+                    margin: 0 auto;
+                    height: 300px;
+                    border: salmon solid 5px;
+                    iframe{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
                     }
                 }
             }
 
-            .imagenesHerramientasDos{
-                display: none;
-            }
-
-            .prueba{
-                font-weight: bold;
-            }
-        }
 
 
-        /* estilos pastillas de frenos */
+            /* estilos contactos */
 
-        .mainPastillas{
-            .tituloPastillas{
-                padding-bottom: 10px;
-                
-            }
-
-            .video{
-                display: flex;
-                justify-content: center;
-                width: 90%;
-                margin: 0 auto;
-                height: 300px;
-                iframe{
-                    height: 100%;
-                    width: 100%;
-                    object-fit: cover;
-                }
-            }
-
-            .parrafoPastillasUno{
-                margin-top: 20px;
-                padding-left: 15px;
-                padding-right: 15px;
-            }
-
-            .parrafoPastillas{
-                margin-top: 20px;
-                padding-left: 15px;
-                padding-right: 15px;
-            }
-
-            .imagenesPastillasParrafo{
-                grid-template-columns: repeat(2, 0.5fr);
-                align-content: center;
-                padding-top: 50px;
-                grid-template-rows: repeat(2, 0.4fr);
+            .mainContacto{
                 text-align: center;
             }
 
-            .imgCincoPastillas{
-                display: none;
+                .mapa{
+                    justify-content: center;
+                }
+            
+
+            /* estilos herramientas */
+
+            .mainHerramientas{
+                .video{
+                    display: flex;
+                    justify-content: center;
+                    width: 90%;
+                    margin: 0 auto;
+                    height: 300px;
+                    iframe{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .imagenesHerramientas{
+                    .imagenesHerramientasUno{
+                        grid-template-columns: repeat(2, 0.5fr);
+
+                        .imagenesHerramientassUno{
+                            text-align: center;
+                        }
+
+                        .imagenesHerramientassDos{
+                            text-align: center;
+                        }
+
+                        .imagenesHerramientassTres{
+                            margin-left: 50%;
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .imagenesHerramientasDos{
+                    display: none;
+                }
+
+                .prueba{
+                    font-weight: bold;
+                }
             }
 
-            .imgSeisPastillas{
-                display: none;
+
+            /* estilos pastillas de frenos */
+
+            .mainPastillas{
+                .tituloPastillas{
+                    padding-bottom: 10px;
+                    
+                }
+
+                .video{
+                    display: flex;
+                    justify-content: center;
+                    width: 90%;
+                    margin: 0 auto;
+                    height: 300px;
+                    iframe{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .parrafoPastillasUno{
+                    margin-top: 20px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+
+                .parrafoPastillas{
+                    margin-top: 20px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+
+                .imagenesPastillasParrafo{
+                    grid-template-columns: repeat(2, 0.5fr);
+                    align-content: center;
+                    padding-top: 50px;
+                    grid-template-rows: repeat(2, 0.4fr);
+                    text-align: center;
+                }
+
+                .imgCincoPastillas{
+                    display: none;
+                }
+
+                .imgSeisPastillas{
+                    display: none;
+                }
             }
+        }
+
+        .suspensionYDireccion{
+            h1{
+                text-align: center;          
+            }
+
+            h2{
+                text-align: center;
+                padding-bottom: 10px;
+            }
+
+            .video{
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                margin: 0 auto;
+                height: 300px;
+                iframe{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            p{
+                text-align: center;
+                padding-top: 10px;
+            }
+
         }
     }
 
-    .suspensionYDireccion{
-        h1{
-            text-align: center;          
-        }
 
-        h2{
-            text-align: center;
-            padding-bottom: 10px;
-        }
-
-        .video{
-            display: flex;
-            justify-content: center;
-            width: 90%;
-            margin: 0 auto;
-            height: 300px;
-            iframe{
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-            }
-        }
-
-        p{
-            text-align: center;
-            padding-top: 10px;
-        }
-
-    }
-}
+   
