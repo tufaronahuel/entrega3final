@@ -18,27 +18,43 @@
     header{
         background-color: $color-principal;
         text-align: center;
-        padding-bottom: 20px; 
+        padding-bottom: 20px;
+        
+        a{
+            .logo{
+                height: 100px; 
+                width: 100px; 
+            }
+        }
+
+        nav{
+            div{
+               div{
+                    ul{
+                        li{
+                            text-decoration: none;  
+                            display: inline-block;
+                            margin-left: 20px;
+                            margin-right: 20px;
+
+                            a{
+                                text-decoration: none;
+                                color: $color-botones; 
+                                font-size: 105% ; 
+                                
+                            }
+                        }
+                    }
+               } 
+            }
+        }
+
     }
     
-    header nav ul li{ 
-        text-decoration: none;  
-        display: inline-block;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+
     
     
-    header nav ul li a{
-        text-decoration: none;
-        color: $color-botones; 
-        font-size: 105% ;   
-    }
-    
-    header a .logo{
-        height: 100px; 
-        width: 100px;
-    }
+
     
     .tomatito:hover{
         background-color: orangered;

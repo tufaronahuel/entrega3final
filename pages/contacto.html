@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description" content="Contacta con Grupo Tufaro. Consulta nuestros horarios de atención, envíanos un mensaje a través de nuestro formulario de contacto o llámanos por WhatsApp. También encuentras nuestras redes sociales y ubicación en el mapa.">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link css -->
@@ -80,43 +82,39 @@
 
 
     <section>
-        <form>
+ 
+        <form class="form">
+            <p class="title"> Mensaje</p>
+            <p class="message">Completa con tus datos y dejanos tu consulta.</p>
+            <div class="flex">
+                <label for="nombre">
+                    <input class="input" type="text" placeholder="Nahuel">
+                    <span>Nombre</span>
+                </label>
 
-            <fieldset>
-                <legend>Completa con tus datos y consulta para contactarte</legend>
-
-                <!-- campo para completar con el nombre -->
-                <div class="tablaDeDatos">
-                    <label for="nombre">Nombre y Apellido</label>
-                    <input class="ejemplo" type="text" id="nombre" name="nombre" placeholder="Juan Frank">
-                </div>
-
-                <!-- campo correo electronico -->
-                <div>
-                    <label for="correo">Correo electronico</label>
-                    <input class="ejemplo" type="email" name="correo" id="correo" placeholder="juan_frank@gmail.com">
-                </div>
-
-                <!-- campo numero de celular -->
-                <div>
-                    <label for="celular">Celular</label>
-                    <input class="ejemplo" type="tel" id="celular" name="celular" placeholder="+54 011 2343-2764">
-                </div>
-
-                <!-- campo para mensaje -->
-                 <div>
-                    <label for="mensaje"></label>
-                    <textarea name="text" id="mensaje" rows="6" cols="43" placeholder="mensaje"></textarea>
-                 </div>
-
-                 <!-- botones de enviar y borrar -->
-                  <div>
-                    <input type="submit" value="Enviar consulta">
-                    <input type="reset" value="Borrar todo">
-                  </div>
-            </fieldset>
-
+                <label for="apellido">
+                    <input class="input" type="text" placeholder="Tufaro">
+                    <span>Apellido</span>
+                </label>
+            </div>  
+                    
+            <label for="email">
+                <input class="input" type="email" placeholder="nahuel@gmail.com.ar">
+                <span>Email</span>
+            </label> 
+                
+            <label for="celular">
+                <input class="input" type="number" placeholder="1123585356">
+                <span>Nº celular</span>
+            </label>
+            <label class="mensaje" for="mensaje">
+                <textarea name="text" id="mensaje" rows="6" cols="40" placeholder="Dejanos tu consulta."></textarea>
+            </label>
+            <button class="submit">Enviar consulta</button>
+            <button class="reset" type="reset">Borrar todo </button>
+            
         </form>
+       
     </section>
 
     <footer>
@@ -130,7 +128,7 @@
                     <a href="https://www.instagram.com/grupo_tufaro/">
                         <img src="../img/instagram.png" alt="logo instagram">
                     </a>
-                    <a href="https://www.youtube.com/watch?v=rK4mcj09bdA">
+                    <a href="https://www.youtube.com/">
                         <img src="../img/youtube.png" alt="logo youtube">
                     </a>
                 </div>
